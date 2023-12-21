@@ -20314,3 +20314,23 @@ a:not([data-aos]):not(.btn):hover {
   overflow: hidden;
   scrollbar-width: none;
 }
+
+.custom-section-height {
+  height: 500px; /* for videos background */
+}
+
+.youtube-video-section {
+  position: relative;
+  padding-bottom: 56.25%; /* Proporção de 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+
+.youtube-video-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
