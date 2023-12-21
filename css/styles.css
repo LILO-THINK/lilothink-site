@@ -20312,4 +20312,5 @@ a:not([data-aos]):not(.btn):hover {
   width: 100%; /* Sets the width to take up the full container */
   height: 500px; /* Adjust the height as needed */
   overflow: hidden;
+  scrollbar-width: none;
 }
